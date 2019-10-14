@@ -12,29 +12,17 @@ This data is stored in the directory "Raw Images" with labels as the directory n
 These labeled directories contain upto 25 images of these people with different backgroud textures.
 
 ## Labels
-Bill Hader:
 
-<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Bill_Hader/00007.jpg" height="300" width="300">
+Bill Hader            |  Bobby Moynihan   |  Jason Sudeikis
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Bill_Hader/00007.jpg" height="300" width="300">  |  <img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/bobby_moynihan/00025.jpg" height="300" width="300">|  <img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/jason_sudeikis/00024.jpg" height="300" width="300">
 
-Bobby Moynihan:
 
-<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/bobby_moynihan/00025.jpg" height="300" width="300">
+Kate McKinnon           |  Kenan Thompson   |  Kristen Wiig
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Kate_McKinnon/00007.jpg" height="300" width="300">  |  <img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kenan_thompson/00018.jpg" height="300" width="300">|  <img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kristen_wiig/00012.jpg" height="300" width="300">
 
-Jason Sudeikis:
 
-<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/jason_sudeikis/00024.jpg" height="300" width="300">
-
-Kate McKinnon:
-
-<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Kate_McKinnon/00007.jpg" height="300" width="300">
-
-Kenan Thompson:
-
-<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kenan_thompson/00018.jpg" height="300" width="300">
-
-Kristen Wiig:
-
-<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kristen_wiig/00012.jpg" height="300" width="300">
 
 
 # FaceNet Architecture Flow:
