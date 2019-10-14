@@ -43,7 +43,8 @@ Access file from: https://drive.google.com/open?id=1QXCPcUVt5l_h_JC92mL-vg05nlwy
 ## Image (randomly pulled the pictures from the internet and combined together in MS Paint)
 ![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/example_02.jpg)
 
-Output:
+## Output:
+
 Accuracy : [0.93148507] 'Bill_Hader'
 
 Accuracy : [0.93587521] 'jason_sudeikis'
