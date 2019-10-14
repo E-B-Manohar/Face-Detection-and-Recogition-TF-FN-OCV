@@ -10,24 +10,31 @@ The sample images of various celebrities like Bill Hader, Bobby Moynihan, Jason 
 
 This data is stored in the directory "Raw Images" with labels as the directory names within the raw_images directory.
 These labeled directories contain upto 25 images of these people with different backgroud textures.
+
 ## Labels
 Bill Hader:
-![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Bill_Hader/00007.jpg | width = 50)
+
+<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Bill_Hader/00007.jpg" height="300" width="300">
 
 Bobby Moynihan:
-![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/bobby_moynihan/00025.jpg)
+
+<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/bobby_moynihan/00025.jpg" height="300" width="300">
 
 Jason Sudeikis:
-![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/jason_sudeikis/00024.jpg)
+
+<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/jason_sudeikis/00024.jpg" height="300" width="300">
 
 Kate McKinnon:
-![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Kate_McKinnon/00007.jpg)
+
+<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Kate_McKinnon/00007.jpg" height="300" width="300">
 
 Kenan Thompson:
-![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kenan_thompson/00018.jpg)
+
+<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kenan_thompson/00018.jpg" height="300" width="300">
 
 Kristen Wiig:
-![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kristen_wiig/00012.jpg)
+
+<img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kristen_wiig/00012.jpg" height="300" width="300">
 
 
 # FaceNet Architecture Flow:
