@@ -23,7 +23,13 @@ Kate McKinnon           |  Kenan Thompson   |  Kristen Wiig
 <img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Kate_McKinnon/00007.jpg" height="300" width="300">  |  <img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kenan_thompson/00018.jpg" height="300" width="300">|  <img src="https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/kristen_wiig/00012.jpg" height="300" width="300">
 
 
+## Data Preprocessing:
+### What is the internal process?
+1. The images are sent to preprocess library which uses the detect faces, facenet mudules in the library which convolves with **pretrained weights** stored in form of **.npy** in the npy folder to detect the faces in a given image(suppose to contain single person to append with the class/person_name label)
+2. Once the face is detected, the facenet module and detect faces mudule marks the boundaries of the face in the image and crops at the boundary and saves in the "face_dataset" directory
 
+
+## Feature Extraction:
 
 # FaceNet Architecture Flow:
 ![FaceNet Architecture Flow:](https://github.com/E-B-Manohar/Object-Classification-with-Keras-using-Transfer-Learning/blob/master/FaceNet_Archicecture.PNG)
