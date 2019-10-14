@@ -12,7 +12,7 @@ This data is stored in the directory "Raw Images" with labels as the directory n
 These labeled directories contain upto 25 images of these people with different backgroud textures.
 ## Labels
 Bill Hader:
-![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Bill_Hader/00007.jpg)
+![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/Bill_Hader/00007.jpg | width = 50)
 
 Bobby Moynihan:
 ![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/raw_images/bobby_moynihan/00025.jpg)
