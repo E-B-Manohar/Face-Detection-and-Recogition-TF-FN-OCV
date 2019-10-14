@@ -24,27 +24,53 @@ Kate McKinnon           |  Kenan Thompson   |  Kristen Wiig
 
 
 ## Data Preprocessing:
+run the step 1 ipynb file
 ### What is the internal process?
 1. The images are sent to preprocess library which uses the detect faces, facenet mudules in the library which convolves with **pretrained weights** stored in form of **.npy** in the npy folder to detect the faces in a given image(suppose to contain single person to append with the class/person_name label)
 2. Once the face is detected, the facenet module and detect faces mudule marks the boundaries of the face in the image and crops at the boundary and saves in the "face_dataset" directory
 
 
-## Feature Extraction:
-
-# FaceNet Architecture Flow:
+## Facial Feature Extraction by Training the model on the given 6 labels:
+run the step 2 ipynb file
+###  FaceNet Architecture Flow:
 ![FaceNet Architecture Flow:](https://github.com/E-B-Manohar/Object-Classification-with-Keras-using-Transfer-Learning/blob/master/FaceNet_Archicecture.PNG)
 
+*The model file is large to upload, for time being it is refered from gdrive share. The file name in this folder should be "20191012-185253.pb" This readme file should be deleted once the modle file is placed in the model directory for limiting the execution errors.
+Access file from: https://drive.google.com/open?id=1QXCPcUVt5l_h_JC92mL-vg05nlwyyC7e 
+*
+
+# Testing the model.
+## Image (randomly pulled the pictures from the internet and combined together in MS Paint)
+![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/example_02.jpg)
+
+Output:
+Accuracy : [0.93148507] 'Bill_Hader'
+
+Accuracy : [0.93587521] 'jason_sudeikis'
+
+Accuracy : [0.91804383] 'Kate_McKinnon'
+
+Accuracy : [0.93157867] 'bobby_moynihan'
+
+Accuracy : [0.93045618] 'jason_sudeikis'
+
+Accuracy : [0.83106043] 'kenan_thompson'
+
+Accuracy : [0.9621055]  'kristen_wiig'
+
+Accuracy : [0.5370428]  'Kate_McKinnon'
+
+![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/example_02(Result).JPG)
 
 
 
+Result for the face recognition is saved in the respective ipynb file : "Step 3 - Recognizing Faces in each frame of a video file.ipynb"
 
 
 
-
-
-
-References:
-https://github.com/davidsandberg/facenet
-http://www.aisangam.com/blog/real-time-face-recognition-using-facenet/
-A Discriminative Feature Learning Approach for Deep Face Recognition
-Deep Face Recognition
+References of various codes, research:
+1. https://github.com/davidsandberg/facenet
+2. http://www.aisangam.com/blog/real-time-face-recognition-using-facenet/
+3. A Discriminative Feature Learning Approach for Deep Face Recognition
+4. Deep Face Recognition
+5. https://drive.google.com/open?id=1QXCPcUVt5l_h_JC92mL-vg05nlwyyC7e
