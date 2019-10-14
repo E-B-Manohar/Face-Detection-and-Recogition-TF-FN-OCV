@@ -83,6 +83,11 @@ Since the model is not trained to recognize "Fred Armisen", the actor was not re
 
 Accuracy Results for the face recognition in the video file is saved in the respective ipynb file : "Step 3 - Recognizing Faces in each frame of a video file.ipynb"
 
+Some Experimented model comparison and performances is discussed in my GitHub repo, where the how the FaceNet performed wrt accuracy and the loss.
+https://github.com/E-B-Manohar/Object-Classification-with-Keras-using-Transfer-Learning
+
+
+More research on this will be updated.
 
 
 References of various codes, research:
