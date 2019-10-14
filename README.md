@@ -41,6 +41,7 @@ Access file from: https://drive.google.com/open?id=1QXCPcUVt5l_h_JC92mL-vg05nlwy
 
 # Testing the model.
 ## Image (randomly pulled the pictures from the internet and combined together in MS Paint)
+run Step 3 - Recognizing Faces in an Image File.ipynb which contains the name of the file as "example_02.jpg"
 ![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/example_02.jpg)
 
 ## Output:
@@ -65,7 +66,22 @@ Accuracy : [0.5370428]  'Kate_McKinnon'
 
 
 
-Result for the face recognition is saved in the respective ipynb file : "Step 3 - Recognizing Faces in each frame of a video file.ipynb"
+## Video File: Picked from YouTube:
+Video Name: "Fox News: End of an Era - SNL" and the Url: https://www.youtube.com/watch?v=2j3beRaYExU
+
+The video file inputted is : "example_mov.avi"
+
+The output result is       : example_mov Result(fast forwarded).avi
+
+Two snapshots of the result video file:
+
+Recognised "Jason Sudeikis"
+![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/Capture1.JPG)
+
+Since the model is not trained to recognize "Fred Armisen", the actor was not recognized by the model:
+![](https://github.com/E-B-Manohar/Face-Detection-and-Recogition-TF-FN-OCV/blob/master/Capture2.JPG)
+
+Accuracy Results for the face recognition in the video file is saved in the respective ipynb file : "Step 3 - Recognizing Faces in each frame of a video file.ipynb"
 
 
 
