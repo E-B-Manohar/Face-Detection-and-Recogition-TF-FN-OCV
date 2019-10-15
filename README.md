@@ -1,6 +1,11 @@
 # Face-Detection-and-Recogition-TF-FN-OCV
 
 # Face Detection and Recogition Using Tensorflow, FaceNet, OpenCV
+## Objective
+To develop a face recognition program that can identify multiple people.
+
+## Summary
+The following work is adopted from various past works from tensorflow contributions and research papers to develop the face recognition program that has been trained on 6 celebrities with very few training dataset and to test on images and video file to determine the model performance. The program is able to recognize upto an accuracy of 96% !!!
 
 ## A General ML Framework:
 ![](https://github.com/E-B-Manohar/Black-Hole-Source/blob/master/Images/References/DS/a%20general%20ml%20model.png)
