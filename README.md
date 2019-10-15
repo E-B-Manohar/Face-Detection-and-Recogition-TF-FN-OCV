@@ -77,6 +77,7 @@ Video Name: "Fox News: End of an Era - SNL" and the Url: https://www.youtube.com
 The video file inputted is : "example_mov.avi"
 
 The output result is       : example_mov Result(fast forwarded).avi
+Available at my YouTube channel- https://youtu.be/1UOTxPbqT84
 
 Two snapshots of the result video file:
 
